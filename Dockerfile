@@ -5,7 +5,7 @@ RUN npm install -g webpack webpack-dev-server yarn
 
 VOLUME /app
 
-EXPOSE 8080
+EXPOSE 80
 
 WORKDIR /app
 
