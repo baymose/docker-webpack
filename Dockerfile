@@ -9,4 +9,6 @@ EXPOSE 80
 
 WORKDIR /app
 
-CMD yarn install && yarn start
+RUN yarn install
+
+CMD yarn build
