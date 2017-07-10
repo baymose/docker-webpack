@@ -11,4 +11,4 @@ WORKDIR /app
 
 RUN yarn install
 
-CMD yarn build
+CMD yarn start
