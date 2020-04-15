@@ -1,5 +1,5 @@
 FROM node:10
-MAINTAINER Marc Tanis <marc@blendimc.com>
+MAINTAINER Bailey Griswold <bailey@rehabpath.com>
 
 RUN npm install -g webpack webpack-dev-server yarn
 
