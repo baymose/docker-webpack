@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:10
 MAINTAINER Marc Tanis <marc@blendimc.com>
 
 RUN npm install -g webpack webpack-dev-server yarn
